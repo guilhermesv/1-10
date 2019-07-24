@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16pt;
+}
+
+section {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 1cm;
+  position: relative;
+  page-break-after: always;
+}
+
+section .infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+section .infos p {
+  width: calc(50% - 5mm);
+
+}
+
+section .quadros {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 2mm;
+  grid-row-gap: 2mm;
+  position: absolute;
+}
+
+
+section .quadros img {
+  max-width: 100%;
+  border: 1px solid #000;
+}
