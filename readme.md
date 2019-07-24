@@ -1,4 +1,4 @@
-#01 — 10
+# 01 — 10
 
 Este projeto é um exercício de programação criativa e utilização de HTML e CSS para criação de publicações impressas.
 
