@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+p {
+  margin-bottom: 1em;
+}
 
 body {
   font-family: sans-serif;
@@ -13,16 +16,12 @@ section {
   height: 21cm;
   padding: 2.7cm 1cm 1cm 1cm;
   position: relative;
-
-
   box-sizing: border-box;
 }
 
-section.metodo {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: .5cm;
-  grid-row-gap: .5cm;
+section.intro {
+  height: auto;
+  margin-bottom: 2em;
 }
 
 @media print {
@@ -30,28 +29,7 @@ section.metodo {
     margin: 0;
     padding: 0;
   }
-  section {
-    width: 14.8cm;
-    height: 21cm;
-  }
   section.intro {
     display: none;
   }
-}
-
-section .descricao {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-section .quadro {
-
-
-}
-
-section .quadro img {
-  max-width: 100%;
-  border: 2px solid;
-  box-sizing: border-box;
-  display: block;
 }

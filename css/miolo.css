@@ -1,0 +1,24 @@
+@media print {
+  @page {
+    size: 14.8cm 21cm;
+  }
+}
+
+section.metodo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: .5cm;
+  grid-row-gap: .5cm;
+}
+
+section .descricao {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+section .quadro img {
+  max-width: 100%;
+  border: 2px solid;
+  box-sizing: border-box;
+  display: block;
+}
